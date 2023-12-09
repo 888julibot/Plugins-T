@@ -9,7 +9,6 @@ from telethon.events.callbackquery import CallbackQuery
 from telethon.tl.functions.users import GetFullUserRequest
 from KiaraUserBot.DB.gvar_sql import gvarstat
 from KiaraUserBot.plugins import *
-from KiaraUserBot.plugins import requirements.txt
 
 mybot = Config.BOT_USERNAME
 if mybot.startswith("@"):
