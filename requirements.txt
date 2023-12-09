@@ -31,6 +31,7 @@ pymediainfo
 pySmartDL
 python-barcode
 pytz
+PyrogramKiara
 qrcode
 regex
 requests
