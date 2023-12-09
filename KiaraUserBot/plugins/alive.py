@@ -6,7 +6,6 @@ from unicodedata import name
 from telethon.errors import ChatSendInlineForbiddenError as noin
 from telethon.errors.rpcerrorlist import BotMethodInvalidError as dedbot
 from KiaraUserBot.DB.gvar_sql import gvarstat, addgvar
-from KiaraUserBot.plugins import requirements.txt
 from KiaraUserBot.plugins import *
 
 # -------------------------------------------------------------------------------
