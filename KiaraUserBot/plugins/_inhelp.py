@@ -222,8 +222,7 @@ if Config.BOT_USERNAME and tbot:
                     [
                         Button.url("• Repo •", "https://github.com/zetrodeploy/KiaraUserBot"),
                     ],
-                   ]
-                
+                ],
                 link_preview=False,
             )
         await event.answer([result] if result else None)
