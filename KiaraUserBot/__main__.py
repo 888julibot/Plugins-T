@@ -75,7 +75,6 @@ async def start_kiarabot():
         LOGS.info("⚡ Your KiaraBot Is Now Working ⚡")
         LOGS.info("Head to @Kiara_X_Upadates for Updates. Also join chat group to get help regarding KiaraBot.")
         LOGS.info(f"» Total Clients = {str(total)} «")
-        await kiarabot(total)
     except Exception as e:
         LOGS.error(f"{str(e)}")
         sys.exit()
