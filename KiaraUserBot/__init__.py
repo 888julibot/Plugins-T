@@ -3,7 +3,7 @@ import time
 import heroku3
 from KiaraConfig import Config
 
-from TelethonKiara.clients.logger import LOGGER as LOGS
+from KiaraUserBot.clients.logger import LOGGER as LOGS
 
 StartTime = time.time()
 
