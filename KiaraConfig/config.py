@@ -35,7 +35,7 @@ class Config(object):
     PM_LOGGER = int(os.environ.get("PM_LOGGER", 0))
     PM_PERMIT = os.environ.get("PM_PERMIT", "True")
     REMOVE_BG_API = os.environ.get("REMOVE_BG_API", None)
-    HELLBOT_SESSION = os.environ.get("HELLBOT_SESSION", None)
+    KIARABOT_SESSION = os.environ.get("HELLBOT_SESSION", None)
     SESSION_2 = os.environ.get("SESSION_2", None)
     SESSION_3 = os.environ.get("SESSION_3", None)
     SESSION_4 = os.environ.get("SESSION_4", None)
