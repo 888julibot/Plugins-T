@@ -61,7 +61,7 @@ async def start_kiarabot():
         Config.BOT_USERNAME = f"@{tbot_id.username}"
         Kiara.tgbot = KiaraBot
         LOGS.info("••• Starting KiaraBot (TELETHON) •••")
-        C1 = await kiaras(Config.HELLBOT_SESSION, Kiara, "HELLBOT_SESSION")
+        C1 = await kiaras(Config.KIARABOT_SESSION, Kiara, "KIARABOT_SESSION")
         C2 = await kiaras(Config.SESSION_2, H2, "SESSION_2")
         C3 = await kiaras(Config.SESSION_3, H3, "SESSION_3")
         C4 = await kiaras(Config.SESSION_4, H4, "SESSION_4")
